@@ -1,11 +1,11 @@
-// Node.js High-Precision Scheduler - Voucher 2
+// Node.js High-Precision Scheduler - Voucher 1
 // Untuk timing yang sangat presisi dengan akurasi milidetik
 
 const https = require('https');
 const http = require('http');
 const fs = require('fs');
 
-// Konfigurasi Voucher 2
+// Konfigurasi Voucher 1
 const CONFIG = {
     voucherId: 2,
     url: 'https://shopee.co.id/api/v2/voucher_wallet/save_voucher',
@@ -14,11 +14,11 @@ const CONFIG = {
     targetSecond: 0,     // Detik eksekusi default (bisa diubah via parameter)
     headers: {
         'Content-Type': 'application/json',
-        'Cookie': 'SPC_EC=.YUk0QThrdjBnOHlwVmZsc8dZjI/PQrz7sUsolIYDbq7Yj4n+v9VLZ8Rl7lzHhhkBXzFNQ3VAj5cwkzjwQxilv35MBSMIM50CfAq/k21bYzdiIoN9SI/AypTjMgccVhelSOgo0vqVDUuT9MbV+8zztIJDtUZ/GBkBx184YP1n6j57UtNH5MbIiXTLxmji989Pxn0vZelFuOP6SfulpJxfi/fblpU7DhAqhe8bql0zk6Kq605i1gVVASemZeJ3Ose2;shopee_webUnique_ccd=6HlDvCeZRRKEMS%2FIyCAHpA%3D%3D%7C%2F3XSv1s2LLFZRXvdtbO00DndL5O%2FZPkGurh1%2BkmwE5y%2BmxinFqvqKZfNkCxrUFD%2BvERaOnYvb2IZgUpk%7Cd6xwQEAdisEDofxV%7C08%7C3;SPC_U=197644546;_QPWSDCXHZQA=30e4e084-1f75-4cff-c405-23c74d259d89;SPC_IA=1;_ga=GA1.3.1785154148.1728259408;SPC_SI=KEB3aAAAAAB5VFRmcW1FMV/QlQAAAAAAa1JJOGR0TDc=;_ga_8TJ45E514C=GS1.1.1744553054.1.0.1744553055.59.0.0;csrftoken=LbMM6NpZDUXjcrYbMSSeeo0JAB0HJNaR;ds=30ad4800058e6fb8cf3c8b746f6b16b9;_fbc=fb.2.1750508542635.PAQ0xDSwLDg0NleHRuA2FlbQEwAGFkaWQBqxT9Y-QJ4wGnheatiZhjQ_4iHU1-wqrpz-lVL1AW--co2WTR5QT2nlKbJ8btHlRBrlcVjYQ_aem_9KgO4HrTT4HACwXNfqF7Xg;_ga_SW6D8G0HXK=GS2.1.s1750550588$o148$g1$t1750550588$j60$l0$h0;_fbp=fb.2.1728258689216.516011602901317675;_gcl_au=1.1.201036373.1753378052;_sapid=e00a8b199d28887ee557471bbb8a09d949fdc34845dc405ed2efb494;REC7iLP4Q=167e91c4-2aee-453d-9e0c-54a644ff5e35;REC_T_ID=97d49245-8115-11ef-8731-0a1018c31593;SPC_CLIENTID=eL8Y2TKrrae6VnNEheqsgilzdgkjpkrn;SPC_F=eL8Y2TKrrae6VnNEvFdK2VhWv9ZpBZBn;SPC_R_T_ID=CVnkdp2AtQgjbamg5DsLfG/s/XBp4VI5/VX6HCrre2DTNmtejBszldn7i3fi20YTW4fewCI6fmkeonWqlzoOuPVoHfTBG8rOSc2WOmTGcp8uIHz7kvPirPV58FJtOX1iIGr61iWOosoavPCb6PCfUO+Bm5IdFwcccTzq+2xxT34=;SPC_R_T_IV=MldMakY4WFJwSkVyN2Yxdw==;SPC_SEC_SI=v1-RE9VNk8wNXFMb1RFQXdzbWCP9N7rExoEQsYJ5IUksFzNwGXFGajLjtiuf7ISkjtQOLReSFIBJt658ohPDOtTcNEM6CAWyjX1DfM0OC3mMkA=;SPC_ST=.MUZ6bWQxQnNEZmFaSGFuWBQwYLg7N0htEAamuoJ0LlhAn+SbdGVcjYKXxdii2KcxvNblDEl4nSBx+DDhtp6pe3p21achto4FL1xhF5C7a+bWJsESjUFDHCJszK3Au6EYaknIU6znavUXbDdUiRxa5BqbiB8AAy9sQawbPfnSxzQ5nZk4X/15Nc472qBPCGMRlX1UhZEu6EXRxh9S1lfmJ0HfFF8HbvHKCFf6mK/mZa6K05pPWLXbqds1c8grLRtg;SPC_T_ID=CVnkdp2AtQgjbamg5DsLfG/s/XBp4VI5/VX6HCrre2DTNmtejBszldn7i3fi20YTW4fewCI6fmkeonWqlzoOuPVoHfTBG8rOSc2WOmTGcp8uIHz7kvPirPV58FJtOX1iIGr61iWOosoavPCb6PCfUO+Bm5IdFwcccTzq+2xxT34=;SPC_T_IV=MldMakY4WFJwSkVyN2Yxdw=='
+        'Cookie': 'SPC_EC=.ZGZCaWJZeFI2bEV1eXJncSnklSDckCAKZoUQZDYJcsJZr5glzBHas54EvtoVyyvWygza/OHzKp6Anh/D4vVHaKEpraPEoJh+VEdz1g90T8FrSx5iMlp016E+ZV4yAsnjIgSyfjYwlf7GHcOzZx2MCS9hxw6Je564Idb1OjXrRq4PFWpDO4n3cBh5pPRxmSTv6DQJH4TM0NEVjFI+mutQsN9P+zQxfxsuN5yRRhsieB4Z16yK3StdL7jX1LVGrS7S;shopee_webUnique_ccd=znivLcwRKpqbm1zHFHxNNQ%3D%3D%7CfOD3rMvhZsO9zFMihgOHbKi7wlMe7wZdKdGPX4HxOghVc8fjird0m2GUcmbt6i1%2B76%2FfSDOwxik6GQ%3D%3D%7CBLraLg16JrJR9LKX%7C08%7C3;SPC_U=1466459814;_QPWSDCXHZQA=d9209f9b-b00c-4659-98d7-6d9090948aff;_ga=GA1.3.2037218368.1725279741;SPC_SI=DUB3aAAAAABqbWZGaWRkR+hJnwAAAAAAelFXQ3V1clo=;csrftoken=Zcm8JLkbvQoAUluEags87OQ5sHpSTOE8;ds=60252df619bd0b72b8ccfe7cb25e999d;_ga_SW6D8G0HXK=GS1.1.1725279740.1.0.1725279741.59.0.0;_sapid=80fb42c16aa797a785a68ec3372324af96400a72067d90b93b1880f1;REC7iLP4Q=ea798962-6e7b-49b2-ba2e-d9b3d67b0a09;REC_T_ID=e0dcabb1-68f6-11ef-9b0b-ca58774012b6;SPC_CDS_CHAT=e60d9a32-91d2-41e4-ac77-7d2e240f070c;SPC_CLIENTID=S2rTNPH0ms4hP5Lmycchmymgwiizhzou;SPC_F=S2rTNPH0ms4hP5LmYxhkOLqDEE7oAgEz;SPC_R_T_ID=716ltMbsSlzh09nL+t7vAMqrrgjB7CzkhCbx8jkd0YXj8VT9kaLLAN+oNfFtkJwNzACquwHEv/Fn7bGSOR6dNsu2AfC8zghF+fcseNtPy813cBkpN0Cwf9Gw+LVtNu2SPkHVrFs0TGqRR30Lljv9CB9/P/GtcIBAyjs3U8c3AXo=;SPC_R_T_IV=ZEhreGFiakdKZDBFZFRibg==;SPC_SEC_SI=v1-dHp3dXFxVE85TG1zNEMwN2iLkJ+F5tUoyNxKK1IkqwIthRzHCw5SCfYnieSAW6Mm9LqI7FthuTmv1joGh5gtrG/x1q+zXRk5r3pBNeU/uvs=;SPC_ST=.M0w1d2xYTDh4SHJaMUlEOa26DEfpXniFSCSzvojPAmwPTjlyYHELy9aln/YQMM7hIILRPoAKShIkYiGMGTNcnrWVMc6k5vcWxEzV0C6mjXZZQ8RRwuzjUNUZQ5xcbP3AL1XmVi4U8iX4q/9Thhdh248ZFnZ32E2W7QH+BAw4O6TRnpIFz32ltnBsMFxlNYvIecSfuv9GGHTf01j0WaNrhNEGP9iGklIzxvLLQHKBtr6GKCaWw+f7P7GxbmK7QkMu;SPC_T_ID=716ltMbsSlzh09nL+t7vAMqrrgjB7CzkhCbx8jkd0YXj8VT9kaLLAN+oNfFtkJwNzACquwHEv/Fn7bGSOR6dNsu2AfC8zghF+fcseNtPy813cBkpN0Cwf9Gw+LVtNu2SPkHVrFs0TGqRR30Lljv9CB9/P/GtcIBAyjs3U8c3AXo=;SPC_T_IV=ZEhreGFiakdKZDBFZFRibg=='
     },
     payload: {
-        voucher_promotionid: 1206237979754497, // Different voucher ID for voucher 2
-        signature: "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2", // Different signature
+        voucher_promotionid: 1206237979754496,
+        signature: "ef913cd8d09e22caf44f348c9c99bcaf7e33b7880aa1e7c8cd8befe1e3e5798f",
         signature_source: "0"
     }
 };
@@ -58,7 +58,9 @@ function executeVoucherRequest() {
                 ...CONFIG.headers,
                 'Content-Length': Buffer.byteLength(postData)
             },
-            timeout: 10000
+            timeout: 30000, // Increased to 30 seconds
+            keepAlive: true,
+            keepAliveMsecs: 10000
         };
         
         const req = https.request(options, (res) => {

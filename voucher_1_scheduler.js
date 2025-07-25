@@ -58,7 +58,9 @@ function executeVoucherRequest() {
                 ...CONFIG.headers,
                 'Content-Length': Buffer.byteLength(postData)
             },
-            timeout: 10000
+            timeout: 30000, // Increased to 30 seconds
+            keepAlive: true,
+            keepAliveMsecs: 10000
         };
         
         const req = https.request(options, (res) => {
