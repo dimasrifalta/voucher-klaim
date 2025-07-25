@@ -1,0 +1,17 @@
+[2025-07-25 08:29:02.53] [INFO] [VOUCHER-1] ⏰ Target waktu voucher 1: 2025-07-26 07:30:15.00 WIB
+[2025-07-25 08:29:02.54] [INFO] [VOUCHER-1] ⏰ Delay: 82872.462 detik
+[2025-07-25 08:29:08.33] [INFO] [VOUCHER-1] ❌ Scheduler voucher 1 dihentikan oleh pengguna (SIGINT)
+[2025-07-25 08:29:43.45] [INFO] [VOUCHER-1] ⏰ Target waktu voucher 1: 2025-07-25 08:30:15.00 WIB
+[2025-07-25 08:29:43.45] [INFO] [VOUCHER-1] ⏰ Delay: 31.552 detik
+[2025-07-25 08:30:15.01] [INFO] [VOUCHER-1] 🚀 Menjalankan request voucher 1 pada: 2025-07-25 08:30:15.01 WIB
+[2025-07-25 08:30:15.01] [ERROR] [VOUCHER-1] ❌ Error saat eksekusi voucher 1: URL is not defined
+[2025-07-25 08:33:20.97] [INFO] [VOUCHER-1] ⏰ Target waktu voucher 1: 2025-07-25 08:33:30.00 WIB
+[2025-07-25 08:33:20.97] [INFO] [VOUCHER-1] ⏰ Delay: 9.030 detik
+[2025-07-25 08:33:30.00] [INFO] [VOUCHER-1] 🚀 Menjalankan request voucher 1 pada: 2025-07-25 08:33:30.00 WIB
+[2025-07-25 08:33:30.00] [ERROR] [VOUCHER-1] ❌ Error saat eksekusi voucher 1: URL is not defined
+[2025-07-25 08:36:02.10] [INFO] [VOUCHER-1] ⏰ Target waktu voucher 1: 2025-07-25 08:36:20.00 WIB
+[2025-07-25 08:36:02.11] [INFO] [VOUCHER-1] ⏰ Delay: 17.897 detik
+[2025-07-25 08:36:20.00] [INFO] [VOUCHER-1] 🚀 Menjalankan request voucher 1 pada: 2025-07-25 08:36:20.00 WIB
+[2025-07-25 08:36:20.25] [INFO] [VOUCHER-1] 📊 Status Code: 200
+[2025-07-25 08:36:20.25] [INFO] [VOUCHER-1] 📊 Response: {"bff_meta":null,"error":14,"error_msg":"Maaf, voucher ini belum dapat digunakan. Silakan coba lagi nanti.","data":{"voucher":null,"invalid_message_code":8,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-07-25 08:36:20.25] [INFO] [VOUCHER-1] ✅ Request voucher berhasil!
