@@ -54,6 +54,10 @@ if "%CHOICE%"=="1" (
     
     echo Memulai Voucher 3...
     start "Voucher 3 - Custom Time" node voucher_3_scheduler.js --once --time=%TIME_INPUT%
+
+    timeout /t 1 /nobreak > nul
+    echo Memulai Voucher 4...
+    start "Voucher 4 - Custom Time" node voucher_4_scheduler.js --once --time=%TIME_INPUT%
     
     echo.
     echo ✅ Semua scheduler telah dimulai dengan waktu target: %TIME_INPUT%

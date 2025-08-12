@@ -5,9 +5,9 @@ const https = require('https');
 const http = require('http');
 const fs = require('fs');
 
-// Konfigurasi Voucher 2
+// Konfigurasi Voucher 4
 const CONFIG = {
-    voucherId: 2,
+    voucherId: 4,
     url: 'https://shopee.co.id/api/v2/voucher_wallet/save_voucher',
     targetHour: 18,      // Jam eksekusi default (bisa diubah via parameter)
     targetMinute: 0,     // Menit eksekusi default (bisa diubah via parameter)
@@ -244,15 +244,15 @@ function main() {
         });
     } else {
         console.log('Penggunaan:');
-        console.log(`  node voucher_2_scheduler.js --once [--time=HH:MM:SS:mmm]    # Jalankan sekali pada waktu tertentu`);
-        console.log(`  node voucher_2_scheduler.js --daily [--time=HH:MM:SS:mmm]   # Schedule harian pada waktu tertentu`);
-        console.log(`  node voucher_2_scheduler.js --test                          # Test request sekarang`);
+        console.log(`  node voucher_4_scheduler.js --once [--time=HH:MM:SS:mmm]    # Jalankan sekali pada waktu tertentu`);
+        console.log(`  node voucher_4_scheduler.js --daily [--time=HH:MM:SS:mmm]   # Schedule harian pada waktu tertentu`);
+        console.log(`  node voucher_4_scheduler.js --test                          # Test request sekarang`);
         console.log('');
         console.log('Contoh:');
-        console.log(`  node voucher_2_scheduler.js --once                          # Default 18:00:00.000`);
-        console.log(`  node voucher_2_scheduler.js --once --time=14:30:15:50       # Custom 14:30:15.050`);
-        console.log(`  node voucher_2_scheduler.js --once --time=14:30:15          # Custom 14:30:15.000`);
-        console.log(`  node voucher_2_scheduler.js --once --time=14:30             # Custom 14:30:00.000`);
+        console.log(`  node voucher_4_scheduler.js --once                          # Default 18:00:00.000`);
+        console.log(`  node voucher_4_scheduler.js --once --time=14:30:15:50       # Custom 14:30:15.050`);
+        console.log(`  node voucher_4_scheduler.js --once --time=14:30:15          # Custom 14:30:15.000`);
+        console.log(`  node voucher_4_scheduler.js --once --time=14:30             # Custom 14:30:00.000`);
         process.exit(1);
     }
 }

@@ -9,30 +9,41 @@ const fs = require('fs');
 const CONFIG = {
     voucherId: 1,
     url: 'https://shopee.co.id/api/v2/voucher_wallet/save_voucher',
-    targetHour: 20,      // Jam eksekusi default (bisa diubah via parameter)
+    targetHour: 18,      // Jam eksekusi default (bisa diubah via parameter)
     targetMinute: 0,     // Menit eksekusi default (bisa diubah via parameter)
     targetSecond: 0,     // Detik eksekusi default (bisa diubah via parameter)
+    targetMillisecond: 0, // Millisecond eksekusi default (bisa diubah via parameter)
     headers: {
         'Content-Type': 'application/json',
-        'Cookie': 'SPC_EC=.YUk0QThrdjBnOHlwVmZsc8dZjI/PQrz7sUsolIYDbq7Yj4n+v9VLZ8Rl7lzHhhkBXzFNQ3VAj5cwkzjwQxilv35MBSMIM50CfAq/k21bYzdiIoN9SI/AypTjMgccVhelSOgo0vqVDUuT9MbV+8zztIJDtUZ/GBkBx184YP1n6j57UtNH5MbIiXTLxmji989Pxn0vZelFuOP6SfulpJxfi/fblpU7DhAqhe8bql0zk6Kq605i1gVVASemZeJ3Ose2;shopee_webUnique_ccd=6HlDvCeZRRKEMS%2FIyCAHpA%3D%3D%7C%2F3XSv1s2LLFZRXvdtbO00DndL5O%2FZPkGurh1%2BkmwE5y%2BmxinFqvqKZfNkCxrUFD%2BvERaOnYvb2IZgUpk%7Cd6xwQEAdisEDofxV%7C08%7C3;SPC_U=197644546;_QPWSDCXHZQA=30e4e084-1f75-4cff-c405-23c74d259d89;SPC_IA=1;_ga=GA1.3.1785154148.1728259408;SPC_SI=KEB3aAAAAAB5VFRmcW1FMV/QlQAAAAAAa1JJOGR0TDc=;_ga_8TJ45E514C=GS1.1.1744553054.1.0.1744553055.59.0.0;csrftoken=LbMM6NpZDUXjcrYbMSSeeo0JAB0HJNaR;ds=30ad4800058e6fb8cf3c8b746f6b16b9;_fbc=fb.2.1750508542635.PAQ0xDSwLDg0NleHRuA2FlbQEwAGFkaWQBqxT9Y-QJ4wGnheatiZhjQ_4iHU1-wqrpz-lVL1AW--co2WTR5QT2nlKbJ8btHlRBrlcVjYQ_aem_9KgO4HrTT4HACwXNfqF7Xg;_ga_SW6D8G0HXK=GS2.1.s1750550588$o148$g1$t1750550588$j60$l0$h0;_fbp=fb.2.1728258689216.516011602901317675;_gcl_au=1.1.201036373.1753378052;_sapid=e00a8b199d28887ee557471bbb8a09d949fdc34845dc405ed2efb494;REC7iLP4Q=167e91c4-2aee-453d-9e0c-54a644ff5e35;REC_T_ID=97d49245-8115-11ef-8731-0a1018c31593;SPC_CLIENTID=eL8Y2TKrrae6VnNEheqsgilzdgkjpkrn;SPC_F=eL8Y2TKrrae6VnNEvFdK2VhWv9ZpBZBn;SPC_R_T_ID=CVnkdp2AtQgjbamg5DsLfG/s/XBp4VI5/VX6HCrre2DTNmtejBszldn7i3fi20YTW4fewCI6fmkeonWqlzoOuPVoHfTBG8rOSc2WOmTGcp8uIHz7kvPirPV58FJtOX1iIGr61iWOosoavPCb6PCfUO+Bm5IdFwcccTzq+2xxT34=;SPC_R_T_IV=MldMakY4WFJwSkVyN2Yxdw==;SPC_SEC_SI=v1-RE9VNk8wNXFMb1RFQXdzbWCP9N7rExoEQsYJ5IUksFzNwGXFGajLjtiuf7ISkjtQOLReSFIBJt658ohPDOtTcNEM6CAWyjX1DfM0OC3mMkA=;SPC_ST=.MUZ6bWQxQnNEZmFaSGFuWBQwYLg7N0htEAamuoJ0LlhAn+SbdGVcjYKXxdii2KcxvNblDEl4nSBx+DDhtp6pe3p21achto4FL1xhF5C7a+bWJsESjUFDHCJszK3Au6EYaknIU6znavUXbDdUiRxa5BqbiB8AAy9sQawbPfnSxzQ5nZk4X/15Nc472qBPCGMRlX1UhZEu6EXRxh9S1lfmJ0HfFF8HbvHKCFf6mK/mZa6K05pPWLXbqds1c8grLRtg;SPC_T_ID=CVnkdp2AtQgjbamg5DsLfG/s/XBp4VI5/VX6HCrre2DTNmtejBszldn7i3fi20YTW4fewCI6fmkeonWqlzoOuPVoHfTBG8rOSc2WOmTGcp8uIHz7kvPirPV58FJtOX1iIGr61iWOosoavPCb6PCfUO+Bm5IdFwcccTzq+2xxT34=;SPC_T_IV=MldMakY4WFJwSkVyN2Yxdw=='
+        'Cookie': 'SPC_EC=.NnFBdTF6N3Z1Q1FZemdMTKahlA/f0pdsIOdO7bfMZUNaiwHAbcLrA3ng56VA42V2RfzxBhr1uhDhnPNj9SoerNwBYsONYLs2O9YKMG6n60StVye0HSuBfMxrgTb1BCYLiZ/Syla8Lt+aeATz/UR8i7Ba2srzzktaeuByqExeFU4X94xuEOV5WyTqfOpWOV8Ml58lMbAw6pa6cNHIuZwy64zruJlqkHNQxh52n1aWyA2+MULuTVJCripEN1WSuhPB;shopee_webUnique_ccd=6HlDvCeZRRKEMS%2FIyCAHpA%3D%3D%7C%2F3XSv1s2LLFZRXvdtbO00DndL5O%2FZPkGurh1%2BkmwE5y%2BmxinFqvqKZfNkCxrUFD%2BvERaOnYvb2IZgUpk%7Cd6xwQEAdisEDofxV%7C08%7C3;SPC_U=197644546;_QPWSDCXHZQA=30e4e084-1f75-4cff-c405-23c74d259d89;SPC_IA=1;_ga=GA1.3.1785154148.1728259408;SPC_SI=CEB3aAAAAAA1Y254Zm10S2mSKgMAAAAAUE1KRVNtVWU=;_ga_8TJ45E514C=GS1.1.1744553054.1.0.1744553055.59.0.0;csrftoken=ocFHJEHsQhLRkp4kiLDCp4A3zH1phZ5M;ds=30ad4800058e6fb8cf3c8b746f6b16b9;_fbc=fb.2.1750508542635.PAQ0xDSwLDg0NleHRuA2FlbQEwAGFkaWQBqxT9Y-QJ4wGnheatiZhjQ_4iHU1-wqrpz-lVL1AW--co2WTR5QT2nlKbJ8btHlRBrlcVjYQ_aem_9KgO4HrTT4HACwXNfqF7Xg;_ga_SW6D8G0HXK=GS2.1.s1750550588$o148$g1$t1750550588$j60$l0$h0;_fbp=fb.2.1728258689216.516011602901317675;_gcl_au=1.1.201036373.1753378052;_sapid=e00a8b199d28887ee557471bbb8a09d949fdc34845dc405ed2efb494;REC7iLP4Q=167e91c4-2aee-453d-9e0c-54a644ff5e35;REC_T_ID=97d49245-8115-11ef-8731-0a1018c31593;SPC_CLIENTID=eL8Y2TKrrae6VnNEheqsgilzdgkjpkrn;SPC_F=eL8Y2TKrrae6VnNEvFdK2VhWv9ZpBZBn;SPC_R_T_ID=8VfJbrU4evhIB3E7WdpWiRp6HVcRbxoRaRAo+jFGb5gP02IhZ0mJc3JQGbTwCRiDkjrwizqiJ8QcJf43zSj+GXyZBu88imEFKcgLCxbjKjRxdeTeHNoJGUzPTgeQGQPIA9SGne1kurNt8Z1ycMXxZhGKfIEPySrTVgXlfz7oxQw=;SPC_R_T_IV=MW1OcXBBVXd6cDhiWUNkMg==;SPC_SEC_SI=v1-WkRzcFp2ZW1iMWRwSTRuNfw4a9LpS9Vs6xqhNAdoi2gSXlID185Ob2pZjVLO9+hHfT95J86d+JRhpUC2lrSpAxXOV9hYpEUT+E/sEab1Yk0=;SPC_ST=.a3lpUlZLeEkzTm82YUlhTasVSRG1n+lFZYjwHx5wD0WgzEeZ/DVfL3fOzn2OLsI7TdKoiIJsf9zVhLDXOFbVNkH82oxhcYi8+TzWG2sBLk8xve7OlV9uB+9LGJay76AXHgefjP5q80JiCVCKrXijQzMJwjF5Eh2N1RVkrZm7d8u1xByyq0FWVzfC8jTyRBLdt2gdxwxp5H6gbKJ1FT1KP6yNz8eInR04cn4VUdNhq4w4Fwy8lp8oT1PCApDtELRY;SPC_T_ID=8VfJbrU4evhIB3E7WdpWiRp6HVcRbxoRaRAo+jFGb5gP02IhZ0mJc3JQGbTwCRiDkjrwizqiJ8QcJf43zSj+GXyZBu88imEFKcgLCxbjKjRxdeTeHNoJGUzPTgeQGQPIA9SGne1kurNt8Z1ycMXxZhGKfIEPySrTVgXlfz7oxQw=;SPC_T_IV=MW1OcXBBVXd6cDhiWUNkMg=='
     },
     payload: {
-        voucher_promotionid: 1206237979754496,
-        signature: "ef913cd8d09e22caf44f348c9c99bcaf7e33b7880aa1e7c8cd8befe1e3e5798f",
+        voucher_promotionid: 1216541983784960,
+        signature: "259bae137d5da67a0de25b3f4eb9660033760c93d1ee58e54c1a22ea6d07e746",
         signature_source: "0"
     }
 };
 
 // Fungsi untuk mendapatkan waktu WIB
 function getWIBTime() {
+    // Gunakan offset UTC+7 untuk timezone Jakarta
     const now = new Date();
-    const utc = now.getTime() + (now.getTimezoneOffset() * 60000);
-    return new Date(utc + (7 * 3600000)); // WIB = UTC+7
+    const utcTime = now.getTime() + (now.getTimezoneOffset() * 60000);
+    const jakartaTime = new Date(utcTime + (7 * 3600000)); // UTC+7
+    return jakartaTime;
 }
 
 // Fungsi untuk logging dengan timestamp presisi
 function log(message, level = 'INFO') {
-    const timestamp = getWIBTime().toISOString().replace('T', ' ').replace('Z', '').slice(0, -1);
+    const wibTime = getWIBTime();
+    const timestamp = wibTime.getFullYear() + '-' +
+        String(wibTime.getMonth() + 1).padStart(2, '0') + '-' +
+        String(wibTime.getDate()).padStart(2, '0') + ' ' +
+        String(wibTime.getHours()).padStart(2, '0') + ':' +
+        String(wibTime.getMinutes()).padStart(2, '0') + ':' +
+        String(wibTime.getSeconds()).padStart(2, '0') + '.' +
+        String(wibTime.getMilliseconds()).padStart(3, '0');
+    
     const logLine = `[${timestamp}] [${level}] [VOUCHER-${CONFIG.voucherId}] ${message}`;
     console.log(logLine);
     
@@ -44,7 +55,15 @@ function log(message, level = 'INFO') {
 function executeVoucherRequest() {
     return new Promise((resolve, reject) => {
         const executionTime = getWIBTime();
-        log(`🚀 Menjalankan request voucher ${CONFIG.voucherId} pada: ${executionTime.toISOString().replace('T', ' ').replace('Z', '').slice(0, -1)} WIB`);
+        const timeStr = executionTime.getFullYear() + '-' +
+            String(executionTime.getMonth() + 1).padStart(2, '0') + '-' +
+            String(executionTime.getDate()).padStart(2, '0') + ' ' +
+            String(executionTime.getHours()).padStart(2, '0') + ':' +
+            String(executionTime.getMinutes()).padStart(2, '0') + ':' +
+            String(executionTime.getSeconds()).padStart(2, '0') + '.' +
+            String(executionTime.getMilliseconds()).padStart(3, '0');
+        
+        log(`🚀 Menjalankan request voucher ${CONFIG.voucherId} pada: ${timeStr} WIB`);
         
         const postData = JSON.stringify(CONFIG.payload);
         const url = new URL(CONFIG.url);
@@ -130,7 +149,7 @@ function waitUntilPreciseTime(targetTime) {
 // Scheduler untuk eksekusi sekali pada jam yang ditentukan
 async function scheduleOnce() {
     const now = getWIBTime();
-    const today = new Date(now.getFullYear(), now.getMonth(), now.getDate(), CONFIG.targetHour, CONFIG.targetMinute, CONFIG.targetSecond, 0);
+    const today = new Date(now.getFullYear(), now.getMonth(), now.getDate(), CONFIG.targetHour, CONFIG.targetMinute, CONFIG.targetSecond, CONFIG.targetMillisecond);
     
     // Jika sudah lewat waktu target hari ini, set untuk hari berikutnya
     if (now.getTime() >= today.getTime()) {
@@ -139,7 +158,15 @@ async function scheduleOnce() {
     
     const delayMs = today.getTime() - now.getTime();
     
-    log(`⏰ Target waktu voucher ${CONFIG.voucherId}: ${today.toISOString().replace('T', ' ').replace('Z', '').slice(0, -1)} WIB`);
+    const targetTimeStr = today.getFullYear() + '-' +
+        String(today.getMonth() + 1).padStart(2, '0') + '-' +
+        String(today.getDate()).padStart(2, '0') + ' ' +
+        String(today.getHours()).padStart(2, '0') + ':' +
+        String(today.getMinutes()).padStart(2, '0') + ':' +
+        String(today.getSeconds()).padStart(2, '0') + '.' +
+        String(today.getMilliseconds()).padStart(3, '0');
+    
+    log(`⏰ Target waktu voucher ${CONFIG.voucherId}: ${targetTimeStr} WIB`);
     log(`⏰ Delay: ${(delayMs / 1000).toFixed(3)} detik`);
     
     await waitUntilPreciseTime(today);
@@ -153,7 +180,7 @@ async function scheduleOnce() {
 
 // Scheduler untuk eksekusi harian
 async function scheduleDailyLoop() {
-    log(`📅 Memulai scheduler harian voucher ${CONFIG.voucherId} - Request akan dijalankan setiap hari jam ${CONFIG.targetHour.toString().padStart(2, '0')}:${CONFIG.targetMinute.toString().padStart(2, '0')}:${CONFIG.targetSecond.toString().padStart(2, '0')} WIB`);
+    log(`📅 Memulai scheduler harian voucher ${CONFIG.voucherId} - Request akan dijalankan setiap hari jam ${CONFIG.targetHour.toString().padStart(2, '0')}:${CONFIG.targetMinute.toString().padStart(2, '0')}:${CONFIG.targetSecond.toString().padStart(2, '0')}.${CONFIG.targetMillisecond.toString().padStart(3, '0')} WIB`);
     
     while (true) {
         try {
@@ -193,22 +220,23 @@ function main() {
             CONFIG.targetHour = parseInt(timeParts[0]) || CONFIG.targetHour;
             CONFIG.targetMinute = parseInt(timeParts[1]) || CONFIG.targetMinute;
             CONFIG.targetSecond = parseInt(timeParts[2]) || CONFIG.targetSecond;
+            CONFIG.targetMillisecond = parseInt(timeParts[3]) || CONFIG.targetMillisecond;
         }
     }
     
     console.log(`🎯 Shopee Voucher Auto Scheduler - Node.js (Voucher ${CONFIG.voucherId})`);
     console.log('='.repeat(60));
-    console.log(`⏰ Target waktu: ${CONFIG.targetHour.toString().padStart(2, '0')}:${CONFIG.targetMinute.toString().padStart(2, '0')}:${CONFIG.targetSecond.toString().padStart(2, '0')} WIB`);
+    console.log(`⏰ Target waktu: ${CONFIG.targetHour.toString().padStart(2, '0')}:${CONFIG.targetMinute.toString().padStart(2, '0')}:${CONFIG.targetSecond.toString().padStart(2, '0')}.${CONFIG.targetMillisecond.toString().padStart(3, '0')} WIB`);
     console.log('='.repeat(60));
     
     if (args.includes('--once')) {
-        console.log(`⏰ Mode: Sekali pada jam ${CONFIG.targetHour.toString().padStart(2, '0')}:${CONFIG.targetMinute.toString().padStart(2, '0')}:${CONFIG.targetSecond.toString().padStart(2, '0')} WIB (Voucher ${CONFIG.voucherId})`);
+        console.log(`⏰ Mode: Sekali pada jam ${CONFIG.targetHour.toString().padStart(2, '0')}:${CONFIG.targetMinute.toString().padStart(2, '0')}:${CONFIG.targetSecond.toString().padStart(2, '0')}.${CONFIG.targetMillisecond.toString().padStart(3, '0')} WIB (Voucher ${CONFIG.voucherId})`);
         scheduleOnce().then(() => {
             console.log(`✅ Scheduler voucher ${CONFIG.voucherId} selesai`);
             process.exit(0);
         });
     } else if (args.includes('--daily')) {
-        console.log(`📅 Mode: Harian setiap jam ${CONFIG.targetHour.toString().padStart(2, '0')}:${CONFIG.targetMinute.toString().padStart(2, '0')}:${CONFIG.targetSecond.toString().padStart(2, '0')} WIB (Voucher ${CONFIG.voucherId})`);
+        console.log(`📅 Mode: Harian setiap jam ${CONFIG.targetHour.toString().padStart(2, '0')}:${CONFIG.targetMinute.toString().padStart(2, '0')}:${CONFIG.targetSecond.toString().padStart(2, '0')}.${CONFIG.targetMillisecond.toString().padStart(3, '0')} WIB (Voucher ${CONFIG.voucherId})`);
         scheduleDailyLoop();
     } else if (args.includes('--test')) {
         testRequest().then(() => {
@@ -216,14 +244,15 @@ function main() {
         });
     } else {
         console.log('Penggunaan:');
-        console.log(`  node voucher_1_scheduler.js --once [--time=HH:MM:SS]    # Jalankan sekali pada waktu tertentu`);
-        console.log(`  node voucher_1_scheduler.js --daily [--time=HH:MM:SS]   # Schedule harian pada waktu tertentu`);
-        console.log(`  node voucher_1_scheduler.js --test                      # Test request sekarang`);
+        console.log(`  node voucher_1_scheduler.js --once [--time=HH:MM:SS:mmm]    # Jalankan sekali pada waktu tertentu`);
+        console.log(`  node voucher_1_scheduler.js --daily [--time=HH:MM:SS:mmm]   # Schedule harian pada waktu tertentu`);
+        console.log(`  node voucher_1_scheduler.js --test                          # Test request sekarang`);
         console.log('');
         console.log('Contoh:');
-        console.log(`  node voucher_1_scheduler.js --once                      # Default 20:00:00`);
-        console.log(`  node voucher_1_scheduler.js --once --time=14:30:15      # Custom 14:30:15`);
-        console.log(`  node voucher_1_scheduler.js --once --time=14:30         # Custom 14:30:00`);
+        console.log(`  node voucher_1_scheduler.js --once                          # Default 18:00:00.000`);
+        console.log(`  node voucher_1_scheduler.js --once --time=14:30:15:50       # Custom 14:30:15.050`);
+        console.log(`  node voucher_1_scheduler.js --once --time=14:30:15          # Custom 14:30:15.000`);
+        console.log(`  node voucher_1_scheduler.js --once --time=14:30             # Custom 14:30:00.000`);
         process.exit(1);
     }
 }
