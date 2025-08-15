@@ -9,17 +9,17 @@ const fs = require('fs');
 const CONFIG = {
     voucherId: 3,
     url: 'https://shopee.co.id/api/v2/voucher_wallet/save_voucher',
-    targetHour: 18,      // Jam eksekusi default (bisa diubah via parameter)
+    targetHour: 12,      // Jam eksekusi default (bisa diubah via parameter)
     targetMinute: 0,     // Menit eksekusi default (bisa diubah via parameter)
     targetSecond: 0,     // Detik eksekusi default (bisa diubah via parameter)
     targetMillisecond: 0, // Millisecond eksekusi default (bisa diubah via parameter)
     headers: {
         'Content-Type': 'application/json',
-        'Cookie': 'SPC_EC=.NnFBdTF6N3Z1Q1FZemdMTKahlA/f0pdsIOdO7bfMZUNaiwHAbcLrA3ng56VA42V2RfzxBhr1uhDhnPNj9SoerNwBYsONYLs2O9YKMG6n60StVye0HSuBfMxrgTb1BCYLiZ/Syla8Lt+aeATz/UR8i7Ba2srzzktaeuByqExeFU4X94xuEOV5WyTqfOpWOV8Ml58lMbAw6pa6cNHIuZwy64zruJlqkHNQxh52n1aWyA2+MULuTVJCripEN1WSuhPB;shopee_webUnique_ccd=6HlDvCeZRRKEMS%2FIyCAHpA%3D%3D%7C%2F3XSv1s2LLFZRXvdtbO00DndL5O%2FZPkGurh1%2BkmwE5y%2BmxinFqvqKZfNkCxrUFD%2BvERaOnYvb2IZgUpk%7Cd6xwQEAdisEDofxV%7C08%7C3;SPC_U=197644546;_QPWSDCXHZQA=30e4e084-1f75-4cff-c405-23c74d259d89;SPC_IA=1;_ga=GA1.3.1785154148.1728259408;SPC_SI=CEB3aAAAAAA1Y254Zm10S2mSKgMAAAAAUE1KRVNtVWU=;_ga_8TJ45E514C=GS1.1.1744553054.1.0.1744553055.59.0.0;csrftoken=ocFHJEHsQhLRkp4kiLDCp4A3zH1phZ5M;ds=30ad4800058e6fb8cf3c8b746f6b16b9;_fbc=fb.2.1750508542635.PAQ0xDSwLDg0NleHRuA2FlbQEwAGFkaWQBqxT9Y-QJ4wGnheatiZhjQ_4iHU1-wqrpz-lVL1AW--co2WTR5QT2nlKbJ8btHlRBrlcVjYQ_aem_9KgO4HrTT4HACwXNfqF7Xg;_ga_SW6D8G0HXK=GS2.1.s1750550588$o148$g1$t1750550588$j60$l0$h0;_fbp=fb.2.1728258689216.516011602901317675;_gcl_au=1.1.201036373.1753378052;_sapid=e00a8b199d28887ee557471bbb8a09d949fdc34845dc405ed2efb494;REC7iLP4Q=167e91c4-2aee-453d-9e0c-54a644ff5e35;REC_T_ID=97d49245-8115-11ef-8731-0a1018c31593;SPC_CLIENTID=eL8Y2TKrrae6VnNEheqsgilzdgkjpkrn;SPC_F=eL8Y2TKrrae6VnNEvFdK2VhWv9ZpBZBn;SPC_R_T_ID=8VfJbrU4evhIB3E7WdpWiRp6HVcRbxoRaRAo+jFGb5gP02IhZ0mJc3JQGbTwCRiDkjrwizqiJ8QcJf43zSj+GXyZBu88imEFKcgLCxbjKjRxdeTeHNoJGUzPTgeQGQPIA9SGne1kurNt8Z1ycMXxZhGKfIEPySrTVgXlfz7oxQw=;SPC_R_T_IV=MW1OcXBBVXd6cDhiWUNkMg==;SPC_SEC_SI=v1-WkRzcFp2ZW1iMWRwSTRuNfw4a9LpS9Vs6xqhNAdoi2gSXlID185Ob2pZjVLO9+hHfT95J86d+JRhpUC2lrSpAxXOV9hYpEUT+E/sEab1Yk0=;SPC_ST=.a3lpUlZLeEkzTm82YUlhTasVSRG1n+lFZYjwHx5wD0WgzEeZ/DVfL3fOzn2OLsI7TdKoiIJsf9zVhLDXOFbVNkH82oxhcYi8+TzWG2sBLk8xve7OlV9uB+9LGJay76AXHgefjP5q80JiCVCKrXijQzMJwjF5Eh2N1RVkrZm7d8u1xByyq0FWVzfC8jTyRBLdt2gdxwxp5H6gbKJ1FT1KP6yNz8eInR04cn4VUdNhq4w4Fwy8lp8oT1PCApDtELRY;SPC_T_ID=8VfJbrU4evhIB3E7WdpWiRp6HVcRbxoRaRAo+jFGb5gP02IhZ0mJc3JQGbTwCRiDkjrwizqiJ8QcJf43zSj+GXyZBu88imEFKcgLCxbjKjRxdeTeHNoJGUzPTgeQGQPIA9SGne1kurNt8Z1ycMXxZhGKfIEPySrTVgXlfz7oxQw=;SPC_T_IV=MW1OcXBBVXd6cDhiWUNkMg=='
+        'Cookie': 'SPC_EC=.VFVkNk9xV2xWR0FMdjY2VRvB8xK2dZVbwezR/14zoar5nQCZqWFTJcJrVBa+4LrEeyDgvl/suQLPFvN7GKz2IDiD5jtcstjr7LkFXhoTOuKdR6Wm4qcYodKu1FkhQnv3SHGJddGkh9LUi7zVymnW1Q362lK2w9zawTx1XBXdqQk3WUZRDmkSfMWCuZVTWPS/a00mWRohJlCjNLouJNeyrcW3h6BTno9wVEmAKMIp13maGq+mzwy6ZbRkjbPhZIbp;SPC_U=1546195773;SPC_SI=QxWbaAAAAAB4ZE1JZ3pPUeTNMAAAAAAAV0p1b0Y1Z08=;REC_T_ID=5f37feeb-3d26-11f0-89d3-7606a32079a5;SPC_CLIENTID=nENGc6RvHqUdQ9Sulnbzdmfhrftquiir;SPC_F=nENGc6RvHqUdQ9Su2Z2W4axoKfSOscZy;SPC_R_T_ID=ao7xXRU9xghufVrT+h+oDAmnCLoXnAzNI/+QAqALtbb9HWBC1tsafyqkJmZa2F/U00HvaXINSaM8fUO/6eGFaZ6J0x9585UTRhCXfBQtYaxacfkQp+BgZQFT/X4/28dvVXMY5ywEkCWGrAvmK12Bn7bOIdFGLANzLV+BdpvR8sw=;SPC_R_T_IV=aU04TXN4ZHdKdzdlMkFxbg==;SPC_SEC_SI=v1-YWFVSnNKYkdET1Yxa1VxMsPx6QG2N6FoDNgNHNvjZwXhhk9yiMdU+ZPZZcgew6Wih5UK2/A7jqp7Zkqb+I0lhFj2LPw+HsMIeLSxxHYt9hI=;SPC_ST=.SktFY0hReXRJSUp6dkkxYVMWKZLQvgBFVvmJ1WxDzO9I1zyyYN/M98daHbwkWSQkVAiJHxkqUJsX3vTk60ULz54ZFgGkMpmYC8/hvHfnh60iGNAYRyBi3LJQ9n51qgmKTA8Jscp+bwk4tTMg8pf7wo1MVdl9bxBPE2cpq11cYb6CvcM1j3NVyGCCF/4fBRdFZIxfyRMkSkSPAeQ70yF6q2QR+ffZFDaJ8xlLlgAJdXX/i/OovWAtiDOS2mJ7HGll;SPC_T_ID=ao7xXRU9xghufVrT+h+oDAmnCLoXnAzNI/+QAqALtbb9HWBC1tsafyqkJmZa2F/U00HvaXINSaM8fUO/6eGFaZ6J0x9585UTRhCXfBQtYaxacfkQp+BgZQFT/X4/28dvVXMY5ywEkCWGrAvmK12Bn7bOIdFGLANzLV+BdpvR8sw=;SPC_T_IV=aU04TXN4ZHdKdzdlMkFxbg=='
     },
     payload: {
-        voucher_promotionid: 1216541983784960,
-        signature: "259bae137d5da67a0de25b3f4eb9660033760c93d1ee58e54c1a22ea6d07e746",
+        voucher_promotionid: 1216545213005824,
+        signature: "98f6d93be884ac548c83dd126ddbc0cf696570d089de0a9a10cd6be8ed191adb",
         signature_source: "0"
     }
 };

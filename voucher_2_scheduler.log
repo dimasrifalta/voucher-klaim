@@ -242,3 +242,234 @@
 [2025-08-11 17:51:14.637] [INFO] [VOUCHER-2] 📊 Status Code: 200
 [2025-08-11 17:51:14.638] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":14,"error_msg":"Maaf, voucher ini belum dapat digunakan. Silakan coba lagi nanti.","data":{"voucher":null,"invalid_message_code":8,"user_voucher_invalid_status":null,"error_config":null}}
 [2025-08-11 17:51:14.639] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-13 08:27:25.860] [INFO] [VOUCHER-2] 🧪 Menjalankan test request voucher 2...
+[2025-08-13 08:27:25.862] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-13 08:27:25.862 WIB
+[2025-08-13 08:27:26.040] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-13 08:27:26.041] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":14,"error_msg":"Maaf, voucher ini belum dapat digunakan. Silakan coba lagi nanti.","data":{"voucher":null,"invalid_message_code":8,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-13 08:27:26.041] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-13 11:53:45.063] [INFO] [VOUCHER-2] 🧪 Menjalankan test request voucher 2...
+[2025-08-13 11:53:45.065] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-13 11:53:45.064 WIB
+[2025-08-13 11:53:45.198] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-13 11:53:45.198] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":14,"error_msg":"Maaf, voucher ini belum dapat digunakan. Silakan coba lagi nanti.","data":{"voucher":null,"invalid_message_code":8,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-13 11:53:45.199] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-13 11:53:49.982] [INFO] [VOUCHER-2] 🧪 Menjalankan test request voucher 2...
+[2025-08-13 11:53:49.984] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-13 11:53:49.984 WIB
+[2025-08-13 11:53:50.153] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-13 11:53:50.561] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":14,"error_msg":"Maaf, voucher ini belum dapat digunakan. Silakan coba lagi nanti.","data":{"voucher":null,"invalid_message_code":8,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-13 11:53:50.562] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-13 11:53:52.111] [INFO] [VOUCHER-2] 🧪 Menjalankan test request voucher 2...
+[2025-08-13 11:53:52.112] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-13 11:53:52.112 WIB
+[2025-08-13 11:53:52.239] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-13 11:53:52.240] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":14,"error_msg":"Maaf, voucher ini belum dapat digunakan. Silakan coba lagi nanti.","data":{"voucher":null,"invalid_message_code":8,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-13 11:53:52.240] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-13 11:54:53.586] [INFO] [VOUCHER-2] ⏰ Target waktu voucher 2: 2025-08-13 11:59:59.300 WIB
+[2025-08-13 11:54:53.586] [INFO] [VOUCHER-2] ⏰ Delay: 305.715 detik
+[2025-08-13 11:59:59.302] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-13 11:59:59.302 WIB
+[2025-08-13 11:59:59.492] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-13 11:59:59.493] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":14,"error_msg":"Maaf, voucher ini belum dapat digunakan. Silakan coba lagi nanti.","data":{"voucher":null,"invalid_message_code":8,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-13 11:59:59.494] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-13 12:00:58.509] [INFO] [VOUCHER-2] 🧪 Menjalankan test request voucher 2...
+[2025-08-13 12:00:58.510] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-13 12:00:58.510 WIB
+[2025-08-13 12:00:58.690] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-13 12:00:58.691] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":14,"error_msg":"Maaf, voucher ini telah habis digunakan.","data":{"voucher":null,"invalid_message_code":4,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-13 12:00:58.691] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-13 17:42:59.481] [INFO] [VOUCHER-2] 🧪 Menjalankan test request voucher 2...
+[2025-08-13 17:42:59.482] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-13 17:42:59.482 WIB
+[2025-08-13 17:43:10.692] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-13 17:43:10.693] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":14,"error_msg":"Maaf, voucher ini telah habis digunakan.","data":{"voucher":null,"invalid_message_code":4,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-13 17:43:10.694] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-13 17:43:53.853] [INFO] [VOUCHER-2] 🧪 Menjalankan test request voucher 2...
+[2025-08-13 17:43:53.854] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-13 17:43:53.854 WIB
+[2025-08-13 17:44:05.067] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-13 17:44:05.068] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":14,"error_msg":"Maaf, voucher ini belum dapat digunakan. Silakan coba lagi nanti.","data":{"voucher":null,"invalid_message_code":8,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-13 17:44:05.069] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-13 17:51:25.079] [INFO] [VOUCHER-2] 🧪 Menjalankan test request voucher 2...
+[2025-08-13 17:51:25.081] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-13 17:51:25.081 WIB
+[2025-08-13 17:51:25.225] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-13 17:51:25.226] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":14,"error_msg":"Maaf, voucher ini belum dapat digunakan. Silakan coba lagi nanti.","data":{"voucher":null,"invalid_message_code":8,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-13 17:51:25.227] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-13 17:51:26.488] [INFO] [VOUCHER-2] 🧪 Menjalankan test request voucher 2...
+[2025-08-13 17:51:26.490] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-13 17:51:26.490 WIB
+[2025-08-13 17:51:26.613] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-13 17:51:26.614] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":14,"error_msg":"Maaf, voucher ini belum dapat digunakan. Silakan coba lagi nanti.","data":{"voucher":null,"invalid_message_code":8,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-13 17:51:26.614] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-13 17:51:27.664] [INFO] [VOUCHER-2] 🧪 Menjalankan test request voucher 2...
+[2025-08-13 17:51:27.666] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-13 17:51:27.666 WIB
+[2025-08-13 17:51:27.791] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-13 17:51:27.792] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":14,"error_msg":"Maaf, voucher ini belum dapat digunakan. Silakan coba lagi nanti.","data":{"voucher":null,"invalid_message_code":8,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-13 17:51:27.793] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-13 17:54:16.207] [INFO] [VOUCHER-2] ⏰ Target waktu voucher 2: 2025-08-13 17:59:59.900 WIB
+[2025-08-13 17:54:16.208] [INFO] [VOUCHER-2] ⏰ Delay: 343.694 detik
+[2025-08-13 17:59:59.901] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-13 17:59:59.901 WIB
+[2025-08-13 18:00:00.124] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-13 18:00:00.125] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":0,"error_msg":"","data":{"voucher":{"promotionid":1216541991518208,"voucher_code":"DD8050RBY5SJ","signature":"ea75baa6f6da5729c69f343417021a59c1ef862544a16e71c8fda9b1b588ebe0","use_type":0,"platform_type":0,"voucher_market_type":1,"min_spend":5000000000,"used_price":null,"current_spend":null,"product_limit":true,"quota_type":1,"percentage_claimed":0,"percentage_used":10,"start_time":1755082800,"end_time":1755104340,"collect_time":1755082800,"claim_start_time":1755082800,"valid_days":0,"reward_type":0,"reward_percentage":80,"reward_value":0,"reward_cap":4500000000,"coin_earned":null,"title":null,"use_link":null,"icon_hash":"id-11134004-7rbk8-m706bkjptnvu1c","icon_text":"KOLEKSI PILIHAN","icon_url":null,"customised_labels":[],"customised_product_scope_tags":[],"shop_id":0,"shop_name":null,"is_shop_preferred":false,"is_shop_official":false,"shop_count":null,"ui_display_type":null,"customised_mall_name":null,"small_icon_list":null,"dp_category_name":null,"invalid_message_code":null,"invalid_message":null,"display_labels":[],"wallet_redeemable":true,"customer_reference_id":"MP-B023B084188202280000001011041500","fully_redeemed":null,"has_expired":null,"disabled":null,"voucher_external_market_type":null,"now_food_extra_info":null,"airpay_opv_extra_info":null,"partner_extra_info":null,"discount_value":0,"discount_percentage":80,"discount_cap":4500000000,"coin_percentage":null,"coin_cap":null,"usage_limit":null,"used_count":null,"left_count":null,"shopee_wallet_only":false,"new_user_only":null,"description":"Versi aplikasimu tidak mendukung untuk mengakses halaman ini. Mohon update ke versi terbaru untuk mengakses halaman ini.","shop_logo":null,"error_code":null,"is_claimed_before":true,"customised_product_scope_tag_image_hash":null,"distributed_labels":[],"has_pre_excluded_products":null,"fully_claimed":false,"fully_used":false,"claim_end_time":1755104340,"sku_opv_extra_info":null,"reminder_pn_setting":0,"valid_duration":{"value_in_secs":0,"type":0},"display_template":null,"voucher_wallet_id":null,"voucher_landing_page":null,"shop_order_count":null,"created_by":null,"is_applicable":null,"reason_code":null,"fsv_error_message":null,"opv_extra_info":null,"exclusive_channel_type":null,"usage_limit_per_user":1,"remaining_usage_limit":1,"action":{"type":2,"data":{"redirect_url":null}},"activation_popup":0,"distribution_time":1755082800,"coin_value":null,"reward_percentage_with_decimal":8000000,"sub_icon_text":null,"is_customised_icon":null,"fixed_flag":0,"customised_flag":"Pemakaian Terbatas","fsv_voucher_card_ui_info":null,"spm_channel":null,"activation_popup_info":null,"is_activation_popup_voucher":null,"external_error_code":null,"external_error_msg":null,"branding_color":"","stream_rule":null,"error_message":null,"is_recommended":null,"is_shop_shopee_choice":false,"is_shop_preferred_plus":false,"voucher_ui_tag":null,"vlp_redirection_link":null,"is_force_selectable":null,"special_payment_priority_index":null,"voucher_status":null,"non_claimable":null,"usage_terms":null,"payment_rule":null,"groups":null,"is_auto_claimed_just_now":null,"daily_usage_limit":0,"daily_usage_count":0,"original_usage_start_time":null,"applied_reward_percentage_with_decimal":8000000,"applied_reward_value":0,"spp_display_info":null,"customised_product_scope_tag_image_description":null,"detail_multi_reward_info":null,"recommended_items":null},"invalid_message_code":0,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-13 18:00:00.126] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-13 23:53:08.748] [INFO] [VOUCHER-2] 🧪 Menjalankan test request voucher 2...
+[2025-08-13 23:53:08.750] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-13 23:53:08.750 WIB
+[2025-08-13 23:53:08.953] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-13 23:53:08.954] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":14,"error_msg":"Maaf, voucher ini telah habis digunakan.","data":{"voucher":null,"invalid_message_code":4,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-13 23:53:08.954] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-13 23:53:43.341] [INFO] [VOUCHER-2] 🧪 Menjalankan test request voucher 2...
+[2025-08-13 23:53:43.342] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-13 23:53:43.342 WIB
+[2025-08-13 23:53:43.509] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-13 23:53:43.509] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":14,"error_msg":"Maaf, voucher ini belum dapat digunakan. Silakan coba lagi nanti.","data":{"voucher":null,"invalid_message_code":8,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-13 23:53:43.510] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-13 23:53:45.070] [INFO] [VOUCHER-2] ⏰ Target waktu voucher 2: 2025-08-14 17:59:59.900 WIB
+[2025-08-13 23:53:45.072] [INFO] [VOUCHER-2] ⏰ Delay: 65174.832 detik
+[2025-08-13 23:53:53.088] [INFO] [VOUCHER-2] ❌ Scheduler voucher 2 dihentikan oleh pengguna (SIGINT)
+[2025-08-13 23:53:56.506] [INFO] [VOUCHER-2] 🧪 Menjalankan test request voucher 2...
+[2025-08-13 23:53:56.507] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-13 23:53:56.507 WIB
+[2025-08-13 23:53:56.640] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-13 23:53:56.641] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":14,"error_msg":"Maaf, voucher ini belum dapat digunakan. Silakan coba lagi nanti.","data":{"voucher":null,"invalid_message_code":8,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-13 23:53:56.642] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-13 23:53:58.355] [INFO] [VOUCHER-2] 🧪 Menjalankan test request voucher 2...
+[2025-08-13 23:53:58.357] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-13 23:53:58.357 WIB
+[2025-08-13 23:53:58.479] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-13 23:53:58.480] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":14,"error_msg":"Maaf, voucher ini belum dapat digunakan. Silakan coba lagi nanti.","data":{"voucher":null,"invalid_message_code":8,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-13 23:53:58.481] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-13 23:54:41.353] [INFO] [VOUCHER-2] ⏰ Target waktu voucher 2: 2025-08-13 23:59:59.900 WIB
+[2025-08-13 23:54:41.354] [INFO] [VOUCHER-2] ⏰ Delay: 318.548 detik
+[2025-08-13 23:59:59.913] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-13 23:59:59.913 WIB
+[2025-08-14 00:00:00.137] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-14 00:00:00.138] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":0,"error_msg":"","data":{"voucher":{"promotionid":1216541999906816,"voucher_code":"DD8050RBAGO4","signature":"b62470fb84cfc4a6b0f8d40f3ca0c57c9409f4329ef4058c914a9536ea56aacf","use_type":0,"platform_type":0,"voucher_market_type":1,"min_spend":5000000000,"used_price":null,"current_spend":null,"product_limit":true,"quota_type":1,"percentage_claimed":0,"percentage_used":10,"start_time":1755104400,"end_time":1755147540,"collect_time":1755104400,"claim_start_time":1755104400,"valid_days":0,"reward_type":0,"reward_percentage":80,"reward_value":0,"reward_cap":4500000000,"coin_earned":null,"title":null,"use_link":null,"icon_hash":"id-11134004-7rbk8-m706bkjptnvu1c","icon_text":"KOLEKSI PILIHAN","icon_url":null,"customised_labels":[],"customised_product_scope_tags":[],"shop_id":0,"shop_name":null,"is_shop_preferred":false,"is_shop_official":false,"shop_count":null,"ui_display_type":null,"customised_mall_name":null,"small_icon_list":null,"dp_category_name":null,"invalid_message_code":null,"invalid_message":null,"display_labels":[],"wallet_redeemable":true,"customer_reference_id":"MP-B023F084188202280000001011041500","fully_redeemed":null,"has_expired":null,"disabled":null,"voucher_external_market_type":null,"now_food_extra_info":null,"airpay_opv_extra_info":null,"partner_extra_info":null,"discount_value":0,"discount_percentage":80,"discount_cap":4500000000,"coin_percentage":null,"coin_cap":null,"usage_limit":null,"used_count":null,"left_count":null,"shopee_wallet_only":false,"new_user_only":null,"description":"Versi aplikasimu tidak mendukung untuk mengakses halaman ini. Mohon update ke versi terbaru untuk mengakses halaman ini.","shop_logo":null,"error_code":null,"is_claimed_before":true,"customised_product_scope_tag_image_hash":null,"distributed_labels":[],"has_pre_excluded_products":null,"fully_claimed":false,"fully_used":false,"claim_end_time":1755147540,"sku_opv_extra_info":null,"reminder_pn_setting":0,"valid_duration":{"value_in_secs":0,"type":0},"display_template":null,"voucher_wallet_id":null,"voucher_landing_page":null,"shop_order_count":null,"created_by":null,"is_applicable":null,"reason_code":null,"fsv_error_message":null,"opv_extra_info":null,"exclusive_channel_type":null,"usage_limit_per_user":1,"remaining_usage_limit":1,"action":{"type":2,"data":{"redirect_url":null}},"activation_popup":0,"distribution_time":1755104400,"coin_value":null,"reward_percentage_with_decimal":8000000,"sub_icon_text":null,"is_customised_icon":null,"fixed_flag":0,"customised_flag":"Pemakaian Terbatas","fsv_voucher_card_ui_info":null,"spm_channel":null,"activation_popup_info":null,"is_activation_popup_voucher":null,"external_error_code":null,"external_error_msg":null,"branding_color":"","stream_rule":null,"error_message":null,"is_recommended":null,"is_shop_shopee_choice":false,"is_shop_preferred_plus":false,"voucher_ui_tag":null,"vlp_redirection_link":null,"is_force_selectable":null,"special_payment_priority_index":null,"voucher_status":null,"non_claimable":null,"usage_terms":null,"payment_rule":null,"groups":null,"is_auto_claimed_just_now":null,"daily_usage_limit":0,"daily_usage_count":0,"original_usage_start_time":null,"applied_reward_percentage_with_decimal":8000000,"applied_reward_value":0,"spp_display_info":null,"customised_product_scope_tag_image_description":null,"detail_multi_reward_info":null,"recommended_items":null},"invalid_message_code":0,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-14 00:00:00.138] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-14 11:31:02.436] [INFO] [VOUCHER-2] 🧪 Menjalankan test request voucher 2...
+[2025-08-14 11:31:02.437] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-14 11:31:02.437 WIB
+[2025-08-14 11:31:02.635] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-14 11:31:02.636] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":14,"error_msg":"Maaf, voucher ini belum dapat digunakan. Silakan coba lagi nanti.","data":{"voucher":null,"invalid_message_code":8,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-14 11:31:02.636] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-14 11:31:04.411] [INFO] [VOUCHER-2] 🧪 Menjalankan test request voucher 2...
+[2025-08-14 11:31:04.413] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-14 11:31:04.413 WIB
+[2025-08-14 11:31:04.558] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-14 11:31:04.559] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":14,"error_msg":"Maaf, voucher ini belum dapat digunakan. Silakan coba lagi nanti.","data":{"voucher":null,"invalid_message_code":8,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-14 11:31:04.560] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-14 11:31:05.616] [INFO] [VOUCHER-2] 🧪 Menjalankan test request voucher 2...
+[2025-08-14 11:31:05.617] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-14 11:31:05.617 WIB
+[2025-08-14 11:31:05.765] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-14 11:31:05.765] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":14,"error_msg":"Maaf, voucher ini belum dapat digunakan. Silakan coba lagi nanti.","data":{"voucher":null,"invalid_message_code":8,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-14 11:31:05.766] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-14 11:55:30.241] [INFO] [VOUCHER-2] ⏰ Target waktu voucher 2: 2025-08-14 11:59:59.200 WIB
+[2025-08-14 11:55:30.242] [INFO] [VOUCHER-2] ⏰ Delay: 268.960 detik
+[2025-08-14 11:59:59.211] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-14 11:59:59.211 WIB
+[2025-08-14 11:59:59.432] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-14 11:59:59.433] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":0,"error_msg":"","data":{"voucher":{"promotionid":1216545205010432,"voucher_code":"DD5045RBGWDD","signature":"af9a1acbad812f6665bfaca02694382bc0f0db3e4e414f2a19b7718c34ae9cd0","use_type":0,"platform_type":0,"voucher_market_type":1,"min_spend":4500000000,"used_price":null,"current_spend":null,"product_limit":true,"quota_type":1,"percentage_claimed":0,"percentage_used":10,"start_time":1755147600,"end_time":1755169140,"collect_time":1755147600,"claim_start_time":1755147600,"valid_days":0,"reward_type":0,"reward_percentage":50,"reward_value":0,"reward_cap":4500000000,"coin_earned":null,"title":null,"use_link":null,"icon_hash":"id-11134004-7r98s-luqaet6wj9ul04","icon_text":"KOLEKSI PILIHAN","icon_url":null,"customised_labels":[],"customised_product_scope_tags":[],"shop_id":0,"shop_name":null,"is_shop_preferred":false,"is_shop_official":false,"shop_count":null,"ui_display_type":null,"customised_mall_name":null,"small_icon_list":null,"dp_category_name":null,"invalid_message_code":null,"invalid_message":null,"display_labels":[],"wallet_redeemable":true,"customer_reference_id":"MP-08A2F0D0188202280000001011041501","fully_redeemed":null,"has_expired":null,"disabled":null,"voucher_external_market_type":null,"now_food_extra_info":null,"airpay_opv_extra_info":null,"partner_extra_info":null,"discount_value":0,"discount_percentage":50,"discount_cap":4500000000,"coin_percentage":null,"coin_cap":null,"usage_limit":null,"used_count":null,"left_count":null,"shopee_wallet_only":false,"new_user_only":null,"description":"Versi aplikasimu tidak mendukung untuk mengakses halaman ini. Mohon update ke versi terbaru untuk mengakses halaman ini.","shop_logo":null,"error_code":null,"is_claimed_before":true,"customised_product_scope_tag_image_hash":null,"distributed_labels":[],"has_pre_excluded_products":null,"fully_claimed":false,"fully_used":false,"claim_end_time":1755169140,"sku_opv_extra_info":null,"reminder_pn_setting":0,"valid_duration":{"value_in_secs":0,"type":0},"display_template":null,"voucher_wallet_id":null,"voucher_landing_page":null,"shop_order_count":null,"created_by":null,"is_applicable":null,"reason_code":null,"fsv_error_message":null,"opv_extra_info":null,"exclusive_channel_type":null,"usage_limit_per_user":1,"remaining_usage_limit":1,"action":{"type":2,"data":{"redirect_url":null}},"activation_popup":0,"distribution_time":1755147600,"coin_value":null,"reward_percentage_with_decimal":5000000,"sub_icon_text":null,"is_customised_icon":null,"fixed_flag":0,"customised_flag":"Pemakaian Terbatas","fsv_voucher_card_ui_info":null,"spm_channel":null,"activation_popup_info":null,"is_activation_popup_voucher":null,"external_error_code":null,"external_error_msg":null,"branding_color":"","stream_rule":null,"error_message":null,"is_recommended":null,"is_shop_shopee_choice":false,"is_shop_preferred_plus":false,"voucher_ui_tag":null,"vlp_redirection_link":null,"is_force_selectable":null,"special_payment_priority_index":null,"voucher_status":null,"non_claimable":null,"usage_terms":null,"payment_rule":null,"groups":null,"is_auto_claimed_just_now":null,"daily_usage_limit":0,"daily_usage_count":0,"original_usage_start_time":null,"applied_reward_percentage_with_decimal":5000000,"applied_reward_value":0,"spp_display_info":null,"customised_product_scope_tag_image_description":null,"detail_multi_reward_info":null,"recommended_items":null},"invalid_message_code":0,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-14 11:59:59.434] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-14 16:50:05.439] [INFO] [VOUCHER-2] 🧪 Menjalankan test request voucher 2...
+[2025-08-14 16:50:05.441] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-14 16:50:05.441 WIB
+[2025-08-14 16:50:05.637] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-14 16:50:05.638] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":14,"error_msg":"Maaf, voucher ini belum dapat digunakan. Silakan coba lagi nanti.","data":{"voucher":null,"invalid_message_code":8,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-14 16:50:05.638] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-14 16:50:06.934] [INFO] [VOUCHER-2] 🧪 Menjalankan test request voucher 2...
+[2025-08-14 16:50:06.936] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-14 16:50:06.936 WIB
+[2025-08-14 16:50:07.070] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-14 16:50:07.070] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":14,"error_msg":"Maaf, voucher ini belum dapat digunakan. Silakan coba lagi nanti.","data":{"voucher":null,"invalid_message_code":8,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-14 16:50:07.071] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-14 16:50:08.029] [INFO] [VOUCHER-2] 🧪 Menjalankan test request voucher 2...
+[2025-08-14 16:50:08.030] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-14 16:50:08.030 WIB
+[2025-08-14 16:50:08.185] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-14 16:50:08.185] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":14,"error_msg":"Maaf, voucher ini belum dapat digunakan. Silakan coba lagi nanti.","data":{"voucher":null,"invalid_message_code":8,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-14 16:50:08.186] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-14 16:50:09.115] [INFO] [VOUCHER-2] 🧪 Menjalankan test request voucher 2...
+[2025-08-14 16:50:09.201] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-14 16:50:09.201 WIB
+[2025-08-14 16:50:09.339] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-14 16:50:09.340] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":14,"error_msg":"Maaf, voucher ini belum dapat digunakan. Silakan coba lagi nanti.","data":{"voucher":null,"invalid_message_code":8,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-14 16:50:09.341] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-14 17:48:32.151] [INFO] [VOUCHER-2] 🧪 Menjalankan test request voucher 2...
+[2025-08-14 17:48:32.153] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-14 17:48:32.153 WIB
+[2025-08-14 17:48:32.350] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-14 17:48:32.351] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":14,"error_msg":"Maaf, voucher ini belum dapat digunakan. Silakan coba lagi nanti.","data":{"voucher":null,"invalid_message_code":8,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-14 17:48:32.351] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-14 17:48:33.773] [INFO] [VOUCHER-2] 🧪 Menjalankan test request voucher 2...
+[2025-08-14 17:48:33.774] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-14 17:48:33.774 WIB
+[2025-08-14 17:48:33.906] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-14 17:48:33.907] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":14,"error_msg":"Maaf, voucher ini belum dapat digunakan. Silakan coba lagi nanti.","data":{"voucher":null,"invalid_message_code":8,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-14 17:48:33.908] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-14 17:48:34.791] [INFO] [VOUCHER-2] 🧪 Menjalankan test request voucher 2...
+[2025-08-14 17:48:34.793] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-14 17:48:34.793 WIB
+[2025-08-14 17:48:34.929] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-14 17:48:34.930] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":14,"error_msg":"Maaf, voucher ini belum dapat digunakan. Silakan coba lagi nanti.","data":{"voucher":null,"invalid_message_code":8,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-14 17:48:34.930] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-14 17:53:55.188] [INFO] [VOUCHER-2] ⏰ Target waktu voucher 2: 2025-08-14 17:59:59.900 WIB
+[2025-08-14 17:53:55.466] [INFO] [VOUCHER-2] ⏰ Delay: 364.713 detik
+[2025-08-14 17:59:59.912] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-14 17:59:59.912 WIB
+[2025-08-14 18:00:00.150] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-14 18:00:00.151] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":0,"error_msg":"","data":{"voucher":{"promotionid":1216545213399040,"voucher_code":"DD5045RB7SPR","signature":"ca0e65dc679279c59a8d6427a2f8ae8b31be40ad6055ce85a345fb66a224bbb5","use_type":0,"platform_type":0,"voucher_market_type":1,"min_spend":4500000000,"used_price":null,"current_spend":null,"product_limit":true,"quota_type":1,"percentage_claimed":0,"percentage_used":10,"start_time":1755169200,"end_time":1755190740,"collect_time":1755169200,"claim_start_time":1755169200,"valid_days":0,"reward_type":0,"reward_percentage":50,"reward_value":0,"reward_cap":4500000000,"coin_earned":null,"title":null,"use_link":null,"icon_hash":"id-11134004-7r98s-luqaet6wj9ul04","icon_text":"KOLEKSI PILIHAN","icon_url":null,"customised_labels":[],"customised_product_scope_tags":[],"shop_id":0,"shop_name":null,"is_shop_preferred":false,"is_shop_official":false,"shop_count":null,"ui_display_type":null,"customised_mall_name":null,"small_icon_list":null,"dp_category_name":null,"invalid_message_code":null,"invalid_message":null,"display_labels":[],"wallet_redeemable":true,"customer_reference_id":"MP-08A3B0D0188202280000001011041501","fully_redeemed":null,"has_expired":null,"disabled":null,"voucher_external_market_type":null,"now_food_extra_info":null,"airpay_opv_extra_info":null,"partner_extra_info":null,"discount_value":0,"discount_percentage":50,"discount_cap":4500000000,"coin_percentage":null,"coin_cap":null,"usage_limit":null,"used_count":null,"left_count":null,"shopee_wallet_only":false,"new_user_only":null,"description":"Versi aplikasimu tidak mendukung untuk mengakses halaman ini. Mohon update ke versi terbaru untuk mengakses halaman ini.","shop_logo":null,"error_code":null,"is_claimed_before":true,"customised_product_scope_tag_image_hash":null,"distributed_labels":[],"has_pre_excluded_products":null,"fully_claimed":false,"fully_used":false,"claim_end_time":1755190740,"sku_opv_extra_info":null,"reminder_pn_setting":0,"valid_duration":{"value_in_secs":0,"type":0},"display_template":null,"voucher_wallet_id":null,"voucher_landing_page":null,"shop_order_count":null,"created_by":null,"is_applicable":null,"reason_code":null,"fsv_error_message":null,"opv_extra_info":null,"exclusive_channel_type":null,"usage_limit_per_user":1,"remaining_usage_limit":1,"action":{"type":2,"data":{"redirect_url":null}},"activation_popup":0,"distribution_time":1755169200,"coin_value":null,"reward_percentage_with_decimal":5000000,"sub_icon_text":null,"is_customised_icon":null,"fixed_flag":0,"customised_flag":"Pemakaian Terbatas","fsv_voucher_card_ui_info":null,"spm_channel":null,"activation_popup_info":null,"is_activation_popup_voucher":null,"external_error_code":null,"external_error_msg":null,"branding_color":"","stream_rule":null,"error_message":null,"is_recommended":null,"is_shop_shopee_choice":false,"is_shop_preferred_plus":false,"voucher_ui_tag":null,"vlp_redirection_link":null,"is_force_selectable":null,"special_payment_priority_index":null,"voucher_status":null,"non_claimable":null,"usage_terms":null,"payment_rule":null,"groups":null,"is_auto_claimed_just_now":null,"daily_usage_limit":0,"daily_usage_count":0,"original_usage_start_time":null,"applied_reward_percentage_with_decimal":5000000,"applied_reward_value":0,"spp_display_info":null,"customised_product_scope_tag_image_description":null,"detail_multi_reward_info":null,"recommended_items":null},"invalid_message_code":0,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-14 18:00:00.152] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-14 23:54:51.971] [INFO] [VOUCHER-2] ⏰ Target waktu voucher 2: 2025-08-14 23:59:59.800 WIB
+[2025-08-14 23:54:51.972] [INFO] [VOUCHER-2] ⏰ Delay: 307.830 detik
+[2025-08-14 23:58:56.205] [INFO] [VOUCHER-2] 🧪 Menjalankan test request voucher 2...
+[2025-08-14 23:58:56.206] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-14 23:58:56.206 WIB
+[2025-08-14 23:58:56.387] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-14 23:58:56.388] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":14,"error_msg":"Maaf, voucher ini belum dapat digunakan. Silakan coba lagi nanti.","data":{"voucher":null,"invalid_message_code":8,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-14 23:58:56.388] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-14 23:58:57.755] [INFO] [VOUCHER-2] 🧪 Menjalankan test request voucher 2...
+[2025-08-14 23:58:57.756] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-14 23:58:57.756 WIB
+[2025-08-14 23:58:57.889] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-14 23:58:57.890] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":14,"error_msg":"Maaf, voucher ini belum dapat digunakan. Silakan coba lagi nanti.","data":{"voucher":null,"invalid_message_code":8,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-14 23:58:57.891] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-14 23:59:59.814] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-14 23:59:59.814 WIB
+[2025-08-15 00:00:00.039] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-15 00:00:00.040] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":0,"error_msg":"","data":{"voucher":{"promotionid":1216545213399044,"voucher_code":"DD5045RB4D1H","signature":"b062fe4b6953029183440f71e6232105a88a5d8d57af3eed765717e8f4d9acc4","use_type":0,"platform_type":0,"voucher_market_type":1,"min_spend":4500000000,"used_price":null,"current_spend":null,"product_limit":true,"quota_type":1,"percentage_claimed":0,"percentage_used":10,"start_time":1755190800,"end_time":1755233940,"collect_time":1755190800,"claim_start_time":1755190800,"valid_days":0,"reward_type":0,"reward_percentage":50,"reward_value":0,"reward_cap":4500000000,"coin_earned":null,"title":null,"use_link":null,"icon_hash":"id-11134004-7r98s-luqaet6wj9ul04","icon_text":"KOLEKSI PILIHAN","icon_url":null,"customised_labels":[],"customised_product_scope_tags":[],"shop_id":0,"shop_name":null,"is_shop_preferred":false,"is_shop_official":false,"shop_count":null,"ui_display_type":null,"customised_mall_name":null,"small_icon_list":null,"dp_category_name":null,"invalid_message_code":null,"invalid_message":null,"display_labels":[],"wallet_redeemable":true,"customer_reference_id":"MP-08A3B0D0188202380000001011041501","fully_redeemed":null,"has_expired":null,"disabled":null,"voucher_external_market_type":null,"now_food_extra_info":null,"airpay_opv_extra_info":null,"partner_extra_info":null,"discount_value":0,"discount_percentage":50,"discount_cap":4500000000,"coin_percentage":null,"coin_cap":null,"usage_limit":null,"used_count":null,"left_count":null,"shopee_wallet_only":false,"new_user_only":null,"description":"Versi aplikasimu tidak mendukung untuk mengakses halaman ini. Mohon update ke versi terbaru untuk mengakses halaman ini.","shop_logo":null,"error_code":null,"is_claimed_before":true,"customised_product_scope_tag_image_hash":null,"distributed_labels":[],"has_pre_excluded_products":null,"fully_claimed":false,"fully_used":false,"claim_end_time":1755233940,"sku_opv_extra_info":null,"reminder_pn_setting":0,"valid_duration":{"value_in_secs":0,"type":0},"display_template":null,"voucher_wallet_id":null,"voucher_landing_page":null,"shop_order_count":null,"created_by":null,"is_applicable":null,"reason_code":null,"fsv_error_message":null,"opv_extra_info":null,"exclusive_channel_type":null,"usage_limit_per_user":1,"remaining_usage_limit":1,"action":{"type":2,"data":{"redirect_url":null}},"activation_popup":0,"distribution_time":1755190800,"coin_value":null,"reward_percentage_with_decimal":5000000,"sub_icon_text":null,"is_customised_icon":null,"fixed_flag":0,"customised_flag":"Pemakaian Terbatas","fsv_voucher_card_ui_info":null,"spm_channel":null,"activation_popup_info":null,"is_activation_popup_voucher":null,"external_error_code":null,"external_error_msg":null,"branding_color":"","stream_rule":null,"error_message":null,"is_recommended":null,"is_shop_shopee_choice":false,"is_shop_preferred_plus":false,"voucher_ui_tag":null,"vlp_redirection_link":null,"is_force_selectable":null,"special_payment_priority_index":null,"voucher_status":null,"non_claimable":null,"usage_terms":null,"payment_rule":null,"groups":null,"is_auto_claimed_just_now":null,"daily_usage_limit":0,"daily_usage_count":0,"original_usage_start_time":null,"applied_reward_percentage_with_decimal":5000000,"applied_reward_value":0,"spp_display_info":null,"customised_product_scope_tag_image_description":null,"detail_multi_reward_info":null,"recommended_items":null},"invalid_message_code":0,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-15 00:00:00.041] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-15 11:09:50.869] [INFO] [VOUCHER-2] 🧪 Menjalankan test request voucher 2...
+[2025-08-15 11:09:50.961] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-15 11:09:50.961 WIB
+[2025-08-15 11:09:51.098] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-15 11:09:51.099] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":14,"error_msg":"Maaf, voucher ini belum dapat digunakan. Silakan coba lagi nanti.","data":{"voucher":null,"invalid_message_code":8,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-15 11:09:51.100] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-15 11:09:52.065] [INFO] [VOUCHER-2] 🧪 Menjalankan test request voucher 2...
+[2025-08-15 11:09:52.067] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-15 11:09:52.067 WIB
+[2025-08-15 11:09:52.205] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-15 11:09:52.206] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":14,"error_msg":"Maaf, voucher ini belum dapat digunakan. Silakan coba lagi nanti.","data":{"voucher":null,"invalid_message_code":8,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-15 11:09:52.207] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-15 11:53:54.373] [INFO] [VOUCHER-2] 🧪 Menjalankan test request voucher 2...
+[2025-08-15 11:53:54.375] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-15 11:53:54.375 WIB
+[2025-08-15 11:54:09.058] [INFO] [VOUCHER-2] ❌ Scheduler voucher 2 dihentikan oleh pengguna (SIGINT)
+[2025-08-15 11:54:12.096] [INFO] [VOUCHER-2] 🧪 Menjalankan test request voucher 2...
+[2025-08-15 11:54:12.097] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-15 11:54:12.097 WIB
+[2025-08-15 11:54:17.390] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-15 11:54:17.391] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":14,"error_msg":"Maaf, voucher ini belum dapat digunakan. Silakan coba lagi nanti.","data":{"voucher":null,"invalid_message_code":8,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-15 11:54:17.391] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-15 11:54:20.337] [INFO] [VOUCHER-2] 🧪 Menjalankan test request voucher 2...
+[2025-08-15 11:54:20.339] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-15 11:54:20.339 WIB
+[2025-08-15 11:54:23.012] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-15 11:54:23.013] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":14,"error_msg":"Maaf, voucher ini belum dapat digunakan. Silakan coba lagi nanti.","data":{"voucher":null,"invalid_message_code":8,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-15 11:54:23.014] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-15 11:54:26.552] [INFO] [VOUCHER-2] 🧪 Menjalankan test request voucher 2...
+[2025-08-15 11:54:26.554] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-15 11:54:26.554 WIB
+[2025-08-15 11:54:27.715] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-15 11:54:27.748] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":14,"error_msg":"Maaf, voucher ini belum dapat digunakan. Silakan coba lagi nanti.","data":{"voucher":null,"invalid_message_code":8,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-15 11:54:27.748] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-15 11:54:28.942] [INFO] [VOUCHER-2] 🧪 Menjalankan test request voucher 2...
+[2025-08-15 11:54:28.944] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-15 11:54:28.944 WIB
+[2025-08-15 11:54:29.089] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-15 11:54:29.090] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":14,"error_msg":"Maaf, voucher ini belum dapat digunakan. Silakan coba lagi nanti.","data":{"voucher":null,"invalid_message_code":8,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-15 11:54:29.090] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-15 11:54:30.090] [INFO] [VOUCHER-2] 🧪 Menjalankan test request voucher 2...
+[2025-08-15 11:54:30.091] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-15 11:54:30.091 WIB
+[2025-08-15 11:54:30.242] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-15 11:54:30.243] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":14,"error_msg":"Maaf, voucher ini belum dapat digunakan. Silakan coba lagi nanti.","data":{"voucher":null,"invalid_message_code":8,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-15 11:54:30.243] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-15 11:54:31.123] [INFO] [VOUCHER-2] 🧪 Menjalankan test request voucher 2...
+[2025-08-15 11:54:31.125] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-15 11:54:31.125 WIB
+[2025-08-15 11:54:31.276] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-15 11:54:31.277] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":14,"error_msg":"Maaf, voucher ini belum dapat digunakan. Silakan coba lagi nanti.","data":{"voucher":null,"invalid_message_code":8,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-15 11:54:31.277] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-15 11:54:32.060] [INFO] [VOUCHER-2] 🧪 Menjalankan test request voucher 2...
+[2025-08-15 11:54:32.062] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-15 11:54:32.062 WIB
+[2025-08-15 11:54:32.197] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-15 11:54:32.198] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":14,"error_msg":"Maaf, voucher ini belum dapat digunakan. Silakan coba lagi nanti.","data":{"voucher":null,"invalid_message_code":8,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-15 11:54:32.199] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-15 11:54:32.968] [INFO] [VOUCHER-2] 🧪 Menjalankan test request voucher 2...
+[2025-08-15 11:54:32.970] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-15 11:54:32.970 WIB
+[2025-08-15 11:54:33.136] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-15 11:54:33.137] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":14,"error_msg":"Maaf, voucher ini belum dapat digunakan. Silakan coba lagi nanti.","data":{"voucher":null,"invalid_message_code":8,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-15 11:54:33.137] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!
+[2025-08-15 11:54:52.552] [INFO] [VOUCHER-2] ⏰ Target waktu voucher 2: 2025-08-15 11:59:59.200 WIB
+[2025-08-15 11:54:52.553] [INFO] [VOUCHER-2] ⏰ Delay: 306.649 detik
+[2025-08-15 11:55:38.040] [INFO] [VOUCHER-2] ❌ Scheduler voucher 2 dihentikan oleh pengguna (SIGINT)
+[2025-08-15 11:55:40.603] [INFO] [VOUCHER-2] ⏰ Target waktu voucher 2: 2025-08-15 11:59:59.200 WIB
+[2025-08-15 11:55:40.603] [INFO] [VOUCHER-2] ⏰ Delay: 258.598 detik
+[2025-08-15 11:59:59.210] [INFO] [VOUCHER-2] 🚀 Menjalankan request voucher 2 pada: 2025-08-15 11:59:59.210 WIB
+[2025-08-15 11:59:59.404] [INFO] [VOUCHER-2] 📊 Status Code: 200
+[2025-08-15 11:59:59.405] [INFO] [VOUCHER-2] 📊 Response: {"bff_meta":null,"error":14,"error_msg":"Maaf, voucher ini belum dapat digunakan. Silakan coba lagi nanti.","data":{"voucher":null,"invalid_message_code":8,"user_voucher_invalid_status":null,"error_config":null}}
+[2025-08-15 11:59:59.406] [INFO] [VOUCHER-2] ✅ Request voucher berhasil!

@@ -9,7 +9,7 @@ const fs = require('fs');
 const CONFIG = {
     voucherId: 4,
     url: 'https://shopee.co.id/api/v2/voucher_wallet/save_voucher',
-    targetHour: 18,      // Jam eksekusi default (bisa diubah via parameter)
+    targetHour: 12,      // Jam eksekusi default (bisa diubah via parameter)
     targetMinute: 0,     // Menit eksekusi default (bisa diubah via parameter)
     targetSecond: 0,     // Detik eksekusi default (bisa diubah via parameter)
     targetMillisecond: 0, // Millisecond eksekusi default (bisa diubah via parameter)
