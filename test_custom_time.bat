@@ -5,7 +5,7 @@ echo ============================================================
 echo.
 
 REM Input waktu dari user
-set /p TIME_INPUT="Masukkan waktu target (HH:MM:SS atau HH:MM): "
+set /p TIME_INPUT="Masukkan waktu target (19:59:59:700): "
 
 if "%TIME_INPUT%"=="" (
     echo ❌ Waktu tidak boleh kosong!
